@@ -16,7 +16,7 @@ composer require getolympus/olympus-dionysos-field-rte
 ---
 
 <p align="center">
-    <img src="https://github.com/GetOlympus/olympus-dionysos-field-rte/blob/master/assets/field-rte-64.png" />
+    <img src="https://github.com/GetOlympus/olympus-dionysos-field-rte/blob/main/assets/field-rte-64.png" />
 </p>
 
 ---
