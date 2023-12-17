@@ -1,0 +1,14 @@
+{% extends template_path %}
+
+{% block id %}{{ identifier }}{% endblock %}
+{% block label %}<label>{{ title|raw }}</label>{% endblock %}
+
+{% block field %}
+    <div id="{{ identifier }}-wrap" class="dionysos-field rte {{ mode }}">
+        {{ wp_editor(value, identifier, settings) }}
+    </div>
+{% endblock %}
+
+{% block description %}
+    {{ description|raw }}
+{% endblock %}
