@@ -30,7 +30,6 @@ return \GetOlympus\Dionysos\Field\Rte::build('my_rte_field_id', [
     'title'       => 'How do Penguins drink their cola?',
     'default'     => 'On the rocks.',
     'description' => 'A simple question to know if you will be able to survive to the Penguin domination.',
-    'placeholder' => 'Tell us how?',
 
     /**
      * RTE settings
@@ -50,7 +49,6 @@ return \GetOlympus\Dionysos\Field\Rte::build('my_rte_field_id', [
 | `title`       | String  | `'Rte'` | *empty* | |
 | `default`     | String  | *empty* | *empty* | Sets default value if none found |
 | `description` | String  | *empty* | *empty* | |
-| `placeholder` | String  | *empty* | *empty* | For `default` mode only |
 | `settings`    | Array   | see [Field initialization](#field-initialization) | see [WordPress reference](https://codex.wordpress.org/Function_Reference/wp_editor) | For `rte` mode only |
 
 ## Retrive data

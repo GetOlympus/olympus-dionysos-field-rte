@@ -47,7 +47,6 @@ class Rte extends Field
             'title'       => parent::t('rte.title', $this->textdomain),
             'default'     => '',
             'description' => '',
-            'placeholder' => '',
 
             /**
              * RTE settings
