@@ -1,4 +1,12 @@
+<img src="https://github.com/GetOlympus/olympus-dionysos-field-rte/blob/main/assets/field-rte.png" align="left" />
+
 # Dionysos Rte Field
+
+[![Olympus Component][olympus-image]][olympus-url]
+[![CodeFactor Grade][codefactor-image]][codefactor-url]
+[![Packagist Version][packagist-image]][packagist-url]
+[![MIT][license-image]][license-blob]
+
 > This component is a part of the **Olympus Dionysos fields** for **WordPress**.  
 > It uses the default WordPress RTE field.
 
@@ -8,16 +16,9 @@ composer require getolympus/olympus-dionysos-field-rte
 
 ---
 
-[![Olympus Component][olympus-image]][olympus-url]
-[![CodeFactor Grade][codefactor-image]][codefactor-url]
-[![Packagist Version][packagist-image]][packagist-url]
-[![MIT][license-image]][license-blob]
+## Table of contents
 
----
-
-<p align="center">
-    <img src="https://github.com/GetOlympus/olympus-dionysos-field-rte/blob/main/assets/field-rte-64.png" />
-</p>
+[Field initialization](#field-initialization) • [Variables definition](#variables-definition) • [Retrive data](#retrive-data) • [Release history](#release-history) • [Contributing](#contributing)
 
 ---
 
@@ -42,7 +43,7 @@ return \GetOlympus\Dionysos\Field\Rte::build('my_rte_field_id', [
 ]);
 ```
 
-## Variables definitions
+## Variables definition
 
 | Variable      | Type    | Default value | Accepted value | Description |
 | :------------ | :------ | :------------ | :------------- | :---------- |
@@ -65,8 +66,9 @@ echo '<pre>'.htmlspecialchars($rte).'</pre>';
 
 ## Release History
 
-0.0.1
-- Initial commit
+| Version | Note |
+| :------ | :--- |
+| 0.0.1  | Initial commit |
 
 ## Contributing
 
